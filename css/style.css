@@ -58,6 +58,40 @@
     margin-right: 1.5rem !important;
 }
 /*******************************/
+/*          Navigation         */
+/*******************************/
+.main-nav-list {
+    list-style: none;
+    display:flex;
+    gap: 3.2rem;
+    align-items: center;
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 1.8rem;
+    transition: all 0.3s;
+}
+.main-nav-link:hover,
+.main-nav-link:active {
+    color: #cf711f;
+}
+.nav-cta:link,
+.nav-cta:visited {
+    color: #fff;
+    padding: 1.2rem 2.4rem;
+    border-radius: 9px ;
+    background-color: #e67e22;
+    transition: all 0.3s;
+}
+.nav-cta:hover,
+.nav-cta:active {
+    background-color: #cf711f;
+}
+/*******************************/
 /*          HEADER             */
 /*******************************/
 
