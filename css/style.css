@@ -228,7 +228,40 @@ body{
     display: flex;
     flex-direction: column;
     row-gap: 2rem;
+    gap: 2rem;
 }
 .meal-attribute {
     font-size: 1.8rem;
+    /* display: flex;
+    align-items: center;
+    gap: 1.6rem; */
+}
+.meal-icon{
+    height: 2.4rem;
+    width: 2.4rem;
+    color: #e67e22;
+}
+strong{
+    font-weight: 500;
+}
+.tag{
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    background-color: #51cf66;
+    color: #333;
+    border-radius: 100px;
+    font-weight: 600;
+}
+.meal-tag {
+    margin-bottom: 12px;
+}
+.meal {
+    box-shadow: 0 2.4rem 4.8rem rgba(0,0,0,0.075);
+    border-radius: 11px;
+    overflow: hidden;
+}
+.meal-content {
+    padding: 3.2rem 4.8rem 4.8rem 4.8rem;
 }
